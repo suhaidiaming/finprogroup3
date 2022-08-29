@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  background-color: #ffb000;
+  padding-top: 1px;
+  padding-left: 20px;
+  padding-bottom: 1px;
+  font-family: Arial;
+}
+
+.search {
+  background-color: #ffb000;
+  text-align: right;
+}
+
+.flex-container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  spacing: 10px;
+  }
+
+img {
+  margin: 00px;
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+  }
+
+.img-container {
+	margin : 20px;
+	position: relative;
+  }
+
+.text-block {
+	position: absolute;
+	bottom: 10px;
+	right: 0px;
+	color: white;
+	padding-left: 0px;
+	padding-right: 0px;
+  }
+
+span {
+	background-color: #ff6600;
+	color: white;
+	font-size: 12px;
+	padding: 8px;
+}
